@@ -1,0 +1,32 @@
+* Project Setup
+1. download project
+2. open project terminal
+3. create virtual env
+    /> mkvirtualenv <name>
+    /> deactivate
+    /> workon <name>
+4. check pip packages
+    /> pip freeze
+5. install pip packages from requirements.txt
+    /> pip install -r requirements.txt
+6. start mongodb server
+    open mongodb compass & click on connect
+7. makemigrations & migrate app
+    /> python manage.py makemigrations
+    /> python manage.py migrate
+8. run django app
+    /> python manage.py runserver
+
+* GIT Setup
+1. create repository on github account
+2. initialize your project folder as git repository
+3. add gitlen extension in VSCode
+4. set origin variable for git url
+5. stages files
+6. commit files
+7. take pull
+8. push changes
+
+Note: optional git Setup
+1. configure email & name
+2. login with credentials if ask to login to push changes
